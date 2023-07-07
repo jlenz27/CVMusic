@@ -132,9 +132,17 @@ h2 {
     text-transform: uppercase;
     line-height: 1;
   }
-  .hero img {
-    width: 100%;
-    height: auto;
 
+  .hero img {
+    width: 60%;
+    height: auto;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto; /* Updated height to auto */
   }
 }
