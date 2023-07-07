@@ -10,7 +10,9 @@ body {
   height: 100vh;
   overflow: hidden;
   font-family: "Greycliff CF";
+
 }
+
 
 nav {
   position: fixed;
@@ -92,6 +94,22 @@ h2 {
   color: #fff;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  padding-left: 2rem;
+
+}
+
+.hero img {
+  max-width: 90%;
+  max-height: 90%;
+
+}
+
 /* Styles for mobile devices */
 @media (max-width: 768px) {
   .overlay {
@@ -100,11 +118,16 @@ h2 {
     align-items: center;
     text-align: center;
   }
-  
+
   .col {
     margin-bottom: 20px;
   }
+
   h2 {
     font-size: 30px;
+  }
+  .hero img {
+    width: 100%;
+    height: auto;
   }
 }
